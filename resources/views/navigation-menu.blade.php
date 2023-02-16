@@ -1,27 +1,27 @@
 @php
     $links = [
         [
-            'name' => 'Home',
+            'name' => __('Home'),
             'url' => route('home'),
             'active' => request()->routeIs('home'),
         ],
         [
-            'name' => 'About Us',
+            'name' => __('About Us'),
             'url' => route('about'),
             'active' => request()->routeIs('about'),
         ],
         [
-            'name' => 'Our Features',
+            'name' => __('Our Features'),
             'url' => route('feature'),
             'active' => request()->routeIs('feature'),
         ],
         [
-            'name' => 'Classes',
+            'name' => __('Classes'),
             'url' => route('class'),
             'active' => request()->routeIs('class'),
         ],
         [
-            'name' => 'Contact',
+            'name' => __('Contact Us'),
             'url' => route('contact'),
             'active' => request()->routeIs('contact'),
         ],
