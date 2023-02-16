@@ -50,21 +50,30 @@
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-primary mb-4">Quick Links</h4>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Features</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Classes</a>
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                    <a class="text-white mb-2" href="{{ route('home') }}"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="{{ route('about') }}"><i class="fa fa-angle-right mr-2"></i>About
+                        Us</a>
+                    <a class="text-white mb-2" href="{{ route('feature') }}"><i class="fa fa-angle-right mr-2"></i>Our
+                        Features</a>
+                    <a class="text-white mb-2" href="{{ route('class') }}"><i
+                            class="fa fa-angle-right mr-2"></i>Classes</a>
+                    <a class="text-white" href="{{ route('contact') }}"><i class="fa fa-angle-right mr-2"></i>Contact
+                        Us</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
                 <h4 class="text-primary mb-4">Popular Links</h4>
                 <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Features</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Classes</a>
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                    <a class="text-white mb-2" href="{{ route('home') }}"><i
+                            class="fa fa-angle-right mr-2"></i>Home</a>
+                    <a class="text-white mb-2" href="{{ route('about') }}"><i class="fa fa-angle-right mr-2"></i>About
+                        Us</a>
+                    <a class="text-white mb-2" href="{{ route('feature') }}"><i class="fa fa-angle-right mr-2"></i>Our
+                        Features</a>
+                    <a class="text-white mb-2" href="{{ route('class') }}"><i
+                            class="fa fa-angle-right mr-2"></i>Classes</a>
+                    <a class="text-white" href="{{ route('contact') }}"><i class="fa fa-angle-right mr-2"></i>Contact
+                        Us</a>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 mb-5">
