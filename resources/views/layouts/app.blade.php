@@ -33,7 +33,7 @@
                 style="min-height: 400px">
                 <h4 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase font-weight-bold">{{ $title }}</h4>
                 <div class="d-inline-flex">
-                    <p class="m-0 text-white"><a class="text-white" href="{{ route('home') }}">Home</a></p>
+                    <p class="m-0 text-white"><a class="text-white" href="{{ route('home') }}">{{ __('Home') }}</a></p>
                     <p class="m-0 text-white px-2">/</p>
                     <p class="m-0 text-white">{{ $title }}</p>
                 </div>
