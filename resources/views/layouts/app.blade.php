@@ -103,7 +103,7 @@
         </div>
         <div class="container border-top border-dark pt-5">
             <p class="m-0 text-center text-white">
-                &copy; <a class="text-white font-weight-bold" href="/">{{ config('app.url') }}</a>.
+                &copy; <a class="text-white font-weight-bold" href="/">{{ config('app.name') }}</a>.
                 {{ __('All Rights Reserved') }}.
                 {{ __('Designed by') }}
                 <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>

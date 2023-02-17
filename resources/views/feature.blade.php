@@ -1,7 +1,7 @@
 <x-app-layout>
     <!-- Page Header Start -->
     <x-slot name="title">
-        Our Features
+        {{ __('Our Features') }}
     </x-slot>
     <!-- Page Header End -->
 
@@ -9,8 +9,8 @@
     <!-- GYM Feature Start -->
     <div class="container feature pt-5">
         <div class="d-flex flex-column text-center mb-5">
-            <h4 class="text-primary font-weight-bold">Why Choose Us?</h4>
-            <h4 class="display-4 font-weight-bold">Benifits of Joining Our GYM</h4>
+            <h4 class="text-primary font-weight-bold">{{ __('Why Choose Us?') }}</h4>
+            <h4 class="display-4 font-weight-bold">{{ __('Benefits of Joining Our GYM') }}</h4>
         </div>
         <div class="row">
             <div class="col-md-6 mb-5">
@@ -20,7 +20,7 @@
                         <i class="flaticon-barbell"></i>
                     </div>
                     <div class="col-sm-7">
-                        <h4 class="font-weight-bold">Videos Instruction</h4>
+                        <h4 class="font-weight-bold">{{ __('Videos Instruction') }}</h4>
                         <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
                             invidunt, dolore tempor diam ipsum takima erat tempor</p>
                     </div>
@@ -33,7 +33,7 @@
                         <i class="flaticon-training"></i>
                     </div>
                     <div class="col-sm-7">
-                        <h4 class="font-weight-bold">Training Calendar</h4>
+                        <h4 class="font-weight-bold">{{ __('Training Calendar') }}</h4>
                         <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
                             invidunt, dolore tempor diam ipsum takima erat tempor</p>
                     </div>
@@ -46,7 +46,7 @@
                         <i class="flaticon-trends"></i>
                     </div>
                     <div class="col-sm-7">
-                        <h4 class="font-weight-bold">Free Apps & WiFi</h4>
+                        <h4 class="font-weight-bold">{{ __('Free Apps & WiFi') }}</h4>
                         <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
                             invidunt, dolore tempor diam ipsum takima erat tempor</p>
                     </div>
@@ -59,7 +59,7 @@
                         <i class="flaticon-support"></i>
                     </div>
                     <div class="col-sm-7">
-                        <h4 class="font-weight-bold">Community Support</h4>
+                        <h4 class="font-weight-bold">{{ __('Community Support') }}</h4>
                         <p>Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit
                             invidunt, dolore tempor diam ipsum takima erat tempor</p>
                     </div>
@@ -88,8 +88,8 @@
                                         <img width="80" height="80" class="rounded-circle bg-dark p-2"
                                             src="img/testimonial-1.jpg" alt="Image">
                                         <div class="pl-4">
-                                            <h4 class="text-primary">Client Name</h4>
-                                            <p class="m-0">Profession</p>
+                                            <h4 class="text-primary">{{ __('Client Name') }}</h4>
+                                            <p class="m-0">{{ __('Profession') }}</p>
                                         </div>
                                     </div>
                                     <div class="testimonial-text position-relative border bg-dark text-white mb-5 p-4">
@@ -103,8 +103,7 @@
                                         <img width="80" height="80" class="rounded-circle bg-dark p-2"
                                             src="img/testimonial-2.jpg" alt="Image">
                                         <div class="pl-4">
-                                            <h4 class="text-primary">Client Name</h4>
-                                            <p class="m-0">Profession</p>
+                                            <h4 class="text-primary">{{ __('Client Name') }}</h4>
                                         </div>
                                     </div>
                                     <div class="testimonial-text position-relative border bg-dark text-white mb-5 p-4">
@@ -118,8 +117,7 @@
                                         <img width="80" height="80" class="rounded-circle bg-dark p-2"
                                             src="img/testimonial-3.jpg" alt="Image">
                                         <div class="pl-4">
-                                            <h4 class="text-primary">Client Name</h4>
-                                            <p class="m-0">Profession</p>
+                                            <p class="m-0">{{ __('Profession') }}</p>
                                         </div>
                                     </div>
                                     <div class="testimonial-text position-relative border bg-dark text-white mb-5 p-4">
@@ -134,8 +132,8 @@
                 </div>
                 <div class="col-md-6">
                     <div class="pl-md-3 d-none d-md-block">
-                        <h4 class="text-primary">Testimonial</h4>
-                        <h4 class="display-4 mb-4 text-white font-weight-bold">What Our Clients Say?</h4>
+                        <h4 class="text-primary">{{ __('Testimonial') }}</h4>
+                        <h4 class="display-4 mb-4 text-white font-weight-bold">{{ __('What Our Clients Say?') }}</h4>
                         <p class="m-0 text-white">Vero elitr lorem magna justo magna justo at justo est ipsum sed clita
                             lorem dolor ipsum sed. Lorem sea lorem vero. Sanct dolor clita clita rebum kasd magna erat
                             diam
