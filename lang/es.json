@@ -215,7 +215,13 @@
     "Community Support": "Soporte de la comunidad",
     "Subscribe Our Newsletter": "Suscríbete a nuestro boletín",
     "Subscribe and get Our latest article in your inbox": "Suscríbete y recibe nuestro último artículo en tu bandeja de entrada",
-    "Your Email": "To correo electrónico",
+    "Your Email": "Tu correo electrónico",
+    "Your Name": "Tu nombre",
+    "Address": "Dirección",
+    "Message": "Mensaje",
+    "Send Message": "Enviar mensaje",
+    "Phone": "Teléfono",
+    "Subject": "Asunto",
     "Subscribe": "Suscribirse",
     "Class Timetable": "Horario de clases",
     "Working Hours and Class Time": "Horas de trabajo y tiempo de clase",
@@ -255,5 +261,6 @@
     "Popular Links": "Enlaces populares",
     "Opening Hours": "Horario de apertura",
     "All Rights Reserved": "Todos los derechos reservados",
-    "Designed by": "Diseñado por"
+    "Designed by": "Diseñado por",
+    "Email Us For Any Query": "Envíenos un e-mail para cualquier consulta"
 }

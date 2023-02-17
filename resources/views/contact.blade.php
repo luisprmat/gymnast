@@ -1,7 +1,7 @@
 <x-app-layout>
     <!-- Page Header Start -->
     <x-slot name="title">
-        Contact Us
+        {{ __('Contact Us') }}
     </x-slot>
     <!-- Page Header End -->
 
@@ -9,23 +9,23 @@
     <!-- Contact Start -->
     <div class="container pt-5">
         <div class="d-flex flex-column text-center mb-5">
-            <h4 class="text-primary font-weight-bold">Get In Touch</h4>
-            <h4 class="display-4 font-weight-bold">Email Us For Any Query</h4>
+            <h4 class="text-primary font-weight-bold">{{ __('Get In Touch') }}</h4>
+            <h4 class="display-4 font-weight-bold">{{ __('Email Us For Any Query') }}</h4>
         </div>
         <div class="row px-3 pb-2">
             <div class="col-sm-4 text-center mb-3">
                 <i class="fa fa-2x fa-map-marker-alt mb-3 text-primary"></i>
-                <h4 class="font-weight-bold">Address</h4>
+                <h4 class="font-weight-bold">{{ __('Address') }}</h4>
                 <p>123 Street, New York, USA</p>
             </div>
             <div class="col-sm-4 text-center mb-3">
                 <i class="fa fa-2x fa-phone-alt mb-3 text-primary"></i>
-                <h4 class="font-weight-bold">Phone</h4>
+                <h4 class="font-weight-bold">{{ __('Phone') }}</h4>
                 <p>+012 345 6789</p>
             </div>
             <div class="col-sm-4 text-center mb-3">
                 <i class="far fa-2x fa-envelope mb-3 text-primary"></i>
-                <h4 class="font-weight-bold">Email</h4>
+                <h4 class="font-weight-bold">{{ __('Email') }}</h4>
                 <p>info@example.com</p>
             </div>
         </div>
@@ -40,28 +40,30 @@
                     <div id="success"></div>
                     <form name="sentMessage" id="contactForm" novalidate="novalidate">
                         <div class="control-group">
-                            <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                required="required" data-validation-required-message="Please enter your name" />
+                            <input type="text" class="form-control" id="name"
+                                placeholder="{{ __('Your Name') }}" required="required"
+                                data-validation-required-message="Please enter your name" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <input type="email" class="form-control" id="email" placeholder="Your Email"
-                                required="required" data-validation-required-message="Please enter your email" />
+                            <input type="email" class="form-control" id="email"
+                                placeholder="{{ __('Your Email') }}" required="required"
+                                data-validation-required-message="Please enter your email" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <input type="text" class="form-control" id="subject" placeholder="Subject"
+                            <input type="text" class="form-control" id="subject" placeholder="{{ __('Subject') }}"
                                 required="required" data-validation-required-message="Please enter a subject" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group">
-                            <textarea class="form-control" rows="6" id="message" placeholder="Message" required="required"
+                            <textarea class="form-control" rows="6" id="message" placeholder="{{ __('Message') }}" required="required"
                                 data-validation-required-message="Please enter your message"></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div>
-                            <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
-                                Message</button>
+                            <button class="btn btn-outline-primary" type="submit"
+                                id="sendMessageButton">{{ __('Send Message') }}</button>
                         </div>
                     </form>
                 </div>
