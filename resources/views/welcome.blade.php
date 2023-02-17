@@ -6,21 +6,29 @@
                 <div class="carousel-item active">
                     <img class="w-100" src="img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h3 class="text-primary text-capitalize m-0">Gym & Fitness Center</h3>
-                        <h2 class="display-2 m-0 mt-2 mt-md-4 text-white font-weight-bold text-capitalize">Best Gym In
-                            Town</h2>
-                        <a href="" class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">Join Us
-                            Now</a>
+                        <h3 class="text-primary text-capitalize m-0">
+                            {{ __('Gym & Fitness Center') }}
+                        </h3>
+                        <h2 class="display-2 m-0 mt-2 mt-md-4 text-white font-weight-bold text-capitalize">
+                            {{ __('Best Gym In Town') }}
+                        </h2>
+                        <a href="" class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">
+                            {{ __('Join Us Now') }}
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="w-100" src="img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h3 class="text-primary text-capitalize m-0">Gym & Fitness Center</h3>
-                        <h2 class="display-2 m-0 mt-2 mt-md-4 text-white font-weight-bold text-capitalize">Get Body In
-                            Shape</h2>
-                        <a href="" class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">Join Us
-                            Now</a>
+                        <h3 class="text-primary text-capitalize m-0">
+                            {{ __('Gym & Fitness Center') }}
+                        </h3>
+                        <h2 class="display-2 m-0 mt-2 mt-md-4 text-white font-weight-bold text-capitalize">
+                            {{ __('Get Body In Shape') }}
+                        </h2>
+                        <a href="" class="btn btn-lg btn-outline-light mt-3 mt-md-5 py-md-3 px-md-5">
+                            {{ __('Join Us Now') }}
+                        </a>
                     </div>
                 </div>
             </div>
@@ -199,13 +207,13 @@
 
     <!-- Subscribe Start -->
     <div class="subscribe container-fluid my-5 py-5 text-center">
-        <h4 class="display-4 text-white font-weight-bold mt-5 mb-3">Subscribe Our Newsletter</h4>
-        <p class="text-white mb-4">Subscribe and get Our latest article in your inbox</p>
+        <h4 class="display-4 text-white font-weight-bold mt-5 mb-3">{{ __('Subscribe Our Newsletter') }}</h4>
+        <p class="text-white mb-4">{{ __('Subscribe and get Our latest article in your inbox') }}</p>
         <form class="form-inline justify-content-center mb-5">
             <div class="input-group">
-                <input type="text" class="form-control-lg" placeholder="Your Email">
+                <input type="text" class="form-control-lg" placeholder="{{ __('Your Email') }}">
                 <div class="input-group-append">
-                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                    <button class="btn btn-primary" type="submit">{{ __('Subscribe') }}</button>
                 </div>
             </div>
         </form>
