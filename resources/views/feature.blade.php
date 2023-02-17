@@ -104,6 +104,7 @@
                                             src="img/testimonial-2.jpg" alt="Image">
                                         <div class="pl-4">
                                             <h4 class="text-primary">{{ __('Client Name') }}</h4>
+                                            <p class="m-0">{{ __('Profession') }}</p>
                                         </div>
                                     </div>
                                     <div class="testimonial-text position-relative border bg-dark text-white mb-5 p-4">
@@ -117,6 +118,7 @@
                                         <img width="80" height="80" class="rounded-circle bg-dark p-2"
                                             src="img/testimonial-3.jpg" alt="Image">
                                         <div class="pl-4">
+                                            <h4 class="text-primary">{{ __('Client Name') }}</h4>
                                             <p class="m-0">{{ __('Profession') }}</p>
                                         </div>
                                     </div>
