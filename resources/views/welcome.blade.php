@@ -678,7 +678,7 @@
                     </div>
                     <div class="card-body bg-secondary">
                         <h4 class="card-title text-primary">{{ __('Trainer Name') }}</h4>
-                        <p class="card-text">Trainer</p>
+                        <p class="card-text">{{ __('Trainer') }}</p>
                     </div>
                 </div>
             </div>
@@ -697,7 +697,7 @@
                     </div>
                     <div class="card-body bg-secondary">
                         <h4 class="card-title text-primary">{{ __('Trainer Name') }}</h4>
-                        <p class="card-text">Trainer</p>
+                        <p class="card-text">{{ __('Trainer') }}</p>
                     </div>
                 </div>
             </div>
@@ -716,7 +716,7 @@
                     </div>
                     <div class="card-body bg-secondary">
                         <h4 class="card-title text-primary">{{ __('Trainer Name') }}</h4>
-                        <p class="card-text">Trainer</p>
+                        <p class="card-text">{{ __('Trainer') }}</p>
                     </div>
                 </div>
             </div>
@@ -735,7 +735,7 @@
                     </div>
                     <div class="card-body bg-secondary">
                         <h4 class="card-title text-primary">{{ __('Trainer Name') }}</h4>
-                        <p class="card-text">Trainer</p>
+                        <p class="card-text">{{ __('Trainer') }}</p>
                     </div>
                 </div>
             </div>
