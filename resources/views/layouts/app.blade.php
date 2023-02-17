@@ -101,13 +101,23 @@
                 <p>2.00 PM - 8.00 PM</p>
             </div>
         </div>
-        <div class="container border-top border-dark pt-5">
-            <p class="m-0 text-center text-white">
+        <div class="container border-top border-dark pt-5 d-flex justify-content-between">
+            <p class="m-0 text-white">
                 &copy; <a class="text-white font-weight-bold" href="/">{{ config('app.name') }}</a>.
                 {{ __('All Rights Reserved') }}.
                 {{ __('Designed by') }}
                 <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
             </p>
+            <form action="{{ route('localization') }}" id="formLocalization">
+                <select name="lang" class="form-control"
+                    onchange="document.getElementById('formLocalization').submit()">
+                    <option value="es">{{ __('Spanish') }}</option>
+                    <option value="en">{{ __('English') }}</option>
+                    <option value="fr">{{ __('French') }}</option>
+                    <option value="de">{{ __('German') }}</option>
+                    <option value="zh_CN">{{ __('Chinese') }}</option>
+                </select>
+            </form>
         </div>
     </div>
     <!-- Footer End -->

@@ -19,6 +19,14 @@ Route::view('feature', 'feature')->name('feature');
 Route::view('class', 'class')->name('class');
 Route::view('contact', 'contact')->name('contact');
 
+Route::get('localization', function () {
+    $lang = request()->lang;
+
+    session()->put('lang', $lang);
+
+    return back();
+})->name('localization');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
