@@ -17,7 +17,9 @@ class Localization
     public function handle(Request $request, Closure $next): Response
     {
         if (! session()->exists('lang')) {
-            session()->put('lang', config('app.locale'));
+            $lang = explode(',', $request->server('HTTP_ACCEPT_LANGUAGE'))[0];
+
+            session()->put('lang', $lang);
         }
 
         App::setLocale(session('lang'));
