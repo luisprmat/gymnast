@@ -111,11 +111,11 @@
             <form action="{{ route('localization') }}" id="formLocalization">
                 <select name="lang" class="form-control"
                     onchange="document.getElementById('formLocalization').submit()">
-                    <option value="es">{{ __('Spanish') }}</option>
-                    <option value="en">{{ __('English') }}</option>
-                    <option value="fr">{{ __('French') }}</option>
-                    <option value="de">{{ __('German') }}</option>
-                    <option value="zh_CN">{{ __('Chinese') }}</option>
+                    <option value="es" @selected(session('lang') == 'es')>{{ __('Spanish') }}</option>
+                    <option value="en" @selected(session('lang') == 'en')>{{ __('English') }}</option>
+                    <option value="fr" @selected(session('lang') == 'fr')>{{ __('French') }}</option>
+                    <option value="de" @selected(session('lang') == 'de')>{{ __('German') }}</option>
+                    <option value="zh_CN" @selected(session('lang') == 'zh_CN')>{{ __('Chinese') }}</option>
                 </select>
             </form>
         </div>
